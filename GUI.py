@@ -2,12 +2,12 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 from PIL import Image, ImageTk
 #import numpy as np
-#import cv2
+#import cv2   
 #from skimage.color import rgb2gray
-#from skimage import io
+#from skimage import io   
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-from logic import CurrencyDetector
+from logic import CurrencyDetector    
 
 # Modern Color Scheme
 MAIN_BG = '#1b263b'  # Dark blue background
@@ -30,7 +30,7 @@ class ModernFrame(tk.Frame):
         self.configure(
             bg=kwargs.get('bg', FRAME_BG),
             highlightthickness=0,  # Remove border
-            bd=0  # Remove border
+            bd=0  # Remove border 
         )
 
 class ModernButton(tk.Button):
